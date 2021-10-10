@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <ul class="menu" onclick="ToggleActive(event)" id="navList">
+          <li class="logo">
+            <a href="index.html"><img class="logo-png" src="images/logo.PNG" alt="logo" /></a>
+          </li>
+          <li class="item"><a href="index.html">HOME</a></li>
+          <li class="item">
+            <a href="products.html">PRODUCTS</a>
+          </li>
+          <li class="item"><a href="listofbranches.html">BRANCHES</a></li>
+          <li class="item"><a href="aboutus.html">ABOUT US</a></li>
+          <li class="item active"><a href="contactus.html">CONTACT US</a></li>
+          <li class="toggle">
+            <a href="#"><i class="fas fa-bars"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="form_contact">
+          <div class="formcontainer">
+            <div class="title_contact">
+              <h3>Contact Us</h3>
+              <p>
+                If you value exceptional coffee and service, we wat Consious Coffee would love to partner with you. So please don't
+                hesitate and add your information so we will contact you as soon as we can.
+              </p>
+            </div>
+            <form class="contact-form content" id="form">
+              <div class="success" id="success"></div>
+              <div class="input-container">
+                <label class="form-option" for="">ّFull Name</label>
+                <input id="fullName" type="text" name="name" class="input">
+                <div class="error" id="fullNameError"></div>
+              </div>
+              <div class="input-container">
+                <label class="form-option" for="">Subject</label>
+                <input id="subject" type="text" name="subject" class="input">
+                <div class="error" id="subjectError"></div>
+              </div>
+              <div class="input-container">
+                <label class="form-option" for="">Email</label>
+                <input id="email" name="email" class="input">
+                <div class="error" id="emailError"></div>
+              </dv>
+              <div class="send">
+                <input id="submit" type="submit" value="Send" class="c-empty cart">
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="shop"><button class="shop-now">Shop now!</button></div>
+    </main>
+    <footer>
+      <section class="ft-social">
+        <ul class="ft-social-list">
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+      </section>
+      <section class="ft-legal">
+        <ul class="ft-legal-list">
+          <li><a href="#">Design by Zhino</a></li>
+          <li>&copy; 2021 Copyright</li>
+        </ul>
+      </section>
+    </footer>
+    <script src="js/nav.js"></script>
+  <script src="js/contact.js"></script>
+  </body>
+  
+</html>
+

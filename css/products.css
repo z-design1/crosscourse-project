@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.btn:focus,
+input[type="number"] {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.listst {
+  background-color: #fff;
+  padding: 0px 10px;
+  border-radius: 4px;
+}
+.Product-img img {
+  width: 100%;
+}
+.main-section {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 100px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+  background-color: #1f1815;
+}

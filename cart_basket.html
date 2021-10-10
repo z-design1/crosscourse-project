@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title id="product_name">Cart basket</title>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/products.css" />
+    <link rel="stylesheet" href="css/all.css" />
+</head>
+    <header>
+        <nav class="container">
+            <ul class="menu" onclick="ToggleActive(event)" id="navList">
+                <li class="logo">
+                    <a href="index.html"><img class="logo-png" src="images/logo.PNG" alt="logo" /></a>
+                </li>
+                <li class="item"><a href="index.html">HOME</a></li>
+                <li class="item">
+                    <a href="products.html">PRODUCTS</a>
+                </li>
+                <li class="item"><a href="listofbranches.html">BRANCHES</a></li>
+                <li class="item"><a href="aboutus.html">ABOUT US</a></li>
+                <li class="item"><a href="contactus.html">CONTACT US</a></li>
+                <li class="item button login"><a href="#">Log In</a></li>
+                <li class="item button signup"><a href="#">Sign Up</a></li>
+                <li class="toggle">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<body onload="LoadBasket();">
+    <div class="py-5 bg-light">
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border" role="status" id="loading"></div>
+        </div>
+        <div class="container mt-5 mb-5b loadbasket">
+        </div>
+    </div>
+<footer>
+    <section class="ft-social">
+        <ul class="ft-social-list">
+            <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+        </ul>
+    </section>
+    <section class="ft-legal">
+        <ul class="ft-legal-list">
+            <li><a href="#">Design by Zhino</a></li>
+            <li>&copy; 2021 Copyright</li>
+        </ul>
+    </section>
+</footer>
+<script src="js/products.js"></script>
+</body>
+
+</html>
